@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Avyanna</string>
+    <string name="no_internet">No internet!</string>
+    <string name="connect">Connect</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="empty_result">Empty!!</string>
+    <string name="already_a_member">Already a member?</string>
+
+
+    <string-array name="genderlist">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="women_rights_text">➦ Every woman has a right to take legal action against any person who assaults or tries to outrage her modesty by any deliberate constant gesture or physical force (Sec. 354 of IPC).
+        \n\n
+        ➦ Every woman has a right to lodge a complaint in the police station , if she is forced to have sexual intercourse against her will (Sec. 376 of IPC).
+        \n\n
+        ➦ A woman has the right to lodge a complaint if she is being harassed, even teased and passed rude remarks in public places like buses, trains, roads etc. (Sec. 354 of IPC).
+        \n\n
+        ➦ Every woman has a right to take legal action against her husband if she is being tortured both physically and mentally or tortured for not agreeing to the demand of money or valuables (Sec. 498(A) of IPC).
+        \n\n
+        ➦ If the relations of the husband of a woman or her mother-in-law or any other relatives, torture her and demand money, valuable articles from her parents, she can lodge a complaint against them. (Sec. 498(A) of IPC).
+        \n\n
+        ➦ If a woman has been kidnapped and either forced against her will to marry any person or to have sexual intercourse, a crime has been committed and she has the right to lodge a complaint. (Sec. 366 of IPC).
+        \n\n
+        ➦ If any person demands or requests for sexual favors, passes sexually colored remarks, or verbally or non-verbally conducts himself in a sexual manner to the woman at her work place, then she has the right to complain against this harassment to her employer and the complaint would be lodged through as per procedure/guidelines of the Supreme Court. (Supreme Court judgement in Writ Petition No-666-700 of 1992 in Vishaka and others Vs State Of Rajasthan).
+        \n\n
+        ➦ A woman if she is a witness has a right to be examined in her own house in the presence of her close relatives(Sec.160 of Cr PC).
+        \n\n
+        ➦ A woman should not sign the FIR unless she is satisfied that it is accurate. (National Commission for women).
+        \n\n
+        ➦ If the officer concerned refuses to register the FIR, a copy of the complaint should be sent to the Deputy Commissioner of Police of the respective Division immediately.
+        \n\n
+        ➦ Every woman has the right to take legal action by approaching the Court if the officer in charge does not take any action on the complaint.
+        \n\n
+        ➦ A woman can be searched, only by another woman with strict regard to decency. (Section 51 and 100 Cr PC)
+        <br />
+        ➦ Any female occupant, who as per custom does not appear in public and not being the person to be arrested, has to be afforded reasonable opportunity to withdraw before entering a place for arresting a person who may be hiding there. (Sec. 47 Cr PC).
+        \n\n
+        ➦ No male under the age of 15 years or a woman can be summoned by police as witnesses to depose about the facts and circumstances in a case under investigation at any place other than the place in which such male person or woman resides. (Sec. 160 Cr PC)
+</string>
+
+
+    <string-array name="sections_list">
+
+        <item>SECTION 304-B OF IPC</item>
+        <item>SECTION 326 OF IPC</item>
+        <item>SECTION 354 OF IPC</item>
+        <item>SECTION 366 OF IPC</item>
+        <item>SECTION 370 OF IPC</item>
+        <item>SECTION 372 OF IPC</item>
+        <item>SECTION 373 OF IPC</item>
+        <item>SECTION 375 OF IPC</item>
+        <item>SECTION 376 OF IPC</item>
+        <item>SECTION 498-A OF IPC</item>
+
+
+    </string-array>
+
+    <string-array name="sections_list_des">
+
+        <item>IPC Section 304-B deals with meaning and punishment of Dowry Death
+            (1) Where the death of a woman is caused by any burns or bodily injury or occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that soon before her death she was subjected to cruelty or har­assment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called “dowry death”, and such husband or relative shall be deemed to have caused her death. (2) Whoever commits dowry death shall be punished with imprison­ment for a term which shall not be less than seven years but which may extend to imprisonment for life.
+        </item>
+        <item>Section 326 of IPC deals with voluntarily causing grievous hurt by dangerous   weapons or means—Whoever, except in the case provided for by section 335, voluntarily causing grievous hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to re­ceive into the blood, or by means of any animal, shall be pun­ished with 1[imprisonment for life], or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. Section 335 of IPC deals with voluntarily causing grievous hurt on provocation.—Whoever 1[voluntarily] causes grievous hurt on grave and sudden provoca­tion, if he neither intends nor knows himself to be likely to cause grievous hurt to any person other than the person who gave the provocation, shall be punished with imprisonment of either description for a term which may extend to four years, or with fine which may extend to two thousand rupees, or with both.
+        </item>
+        <item>Section 354 of IPC deals with assault or criminal force to women with intent to outrage her modesty.—Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty, shall be punished with impris­onment of either description for a term which may extend to two years, or with fine, or with both.
+        </item>
+        <item>Section 366 of IPC deals with kidnapping, abducting or inducing women to compel her mar­riage, etc.—Whoever kidnaps or abducts any woman with intent that she may be compelled, or knowing it to be likely that she will be compelled, to marry any person against her will, or in order that she may be forced or seduced to illicit intercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; 1[and whoever, by means of criminal intimidation as defined in this Code or of abuse of authority or any other method of compulsion, induces any woman to go from any place with intent that she may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall be punishable as aforesaid].
+        </item>
+        <item>Section 370 of IPC deals with buying or disposing of any person as a slave.—Whoever imports, exports, removes, buys, sells or disposes of any person as a slave, or accepts, receives or detains against his will any person as a slave, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.
+        </item>
+        <item>Section 372 of IPC deals with selling minor for purposes of prostitution, etc.—Whoever sells, lets to hire, or otherwise disposes of any 1[person under the age of eighteen years with intent that such person shall at any age be employed or used for the purpose of prostitution or illicit intercourse with any person or for any unlawful and immoral purpose, or knowing it to be likely that such person will at any age be] employed or used for any such purpose, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall be liable to fine. 2[Explanation I.—When a female under the age of eighteen years is sold, let for hire, or otherwise disposed of to a prostitute or to any person who keeps or manages a brothel, the person so disposing of such female shall, until the contrary is proved, be presumed to have disposed of her with the intent that she shall be used for the purpose of prostitution. Explanation II.—For the purposes of this section “illicit inter­course” means sexual intercourse between persons not united by marriage or by any union or tie which, though not amounting to a marriage, is recognised by the personal law or custom of the community to which they belong or, where they belong to different communities, of both such communities, as constituting between them a quasi-marital relation.]
+        </item>
+        <item>Section 373 of IPC deals with buying minor for purposes of prostitution, etc.—Whoever buys, hires or otherwise obtains possession of any 1[person under the age of eighteen years with intent that such person shall at any age be employed or used for the purpose of prostitution or illicit intercourse with any person or for any unlawful and immoral purpose, of knowing it to be likely that such person will at any age be] employed or used for any purpose, shall be pun­ished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. 2[Explanation I.—Any prostitute or any person keeping or manag­ing a brothel, who buys, hires or otherwise obtains possession of a female under the age of eighteen years shall, until the con­trary is proved, be presumed to have obtained possession of such female with the intent that she shall be used for the purpose of prostitution.
+        </item>
+        <item>IPC Section 375 deals with the definition of rape, it says that “A man is said to commit “RAPE” if he- (a) penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of a woman or makes her to do so with him or any other person; or (b) inserts, to any extent, any object or a part of the body, not being the penis, into the vagina, the urethra or anus of a woman or makes her to do so with him or any other person; or (c) manipulates any part of the body of a woman so as to cause penetration into the vagina, urethra, anus or any part of body of such woman or makes her to do so with him or any other person; or (d) applies his mouth to the vagina, anus, urethra of a woman or makes her to do so with him or any other person, under the circumstances falling under any of the following seven clauses; First.-Against her will, Secondly.-Without her consent, Thirdly.-With her consent, when her consent has been obtained by putting her or any person in whom she is interested, in fear of death or of hurt, Fourthly.-With her consent, when the man knows that he is not her husband and that her consent is given because she believes that he is another man to whom she is or believes herself to be lawfully married, Fifthly.-With her consent when, at the time of giving such consent, by reason of unsoundness of mind or intoxication or the administration by him personally or through another of any stupefying or unwholesome substance, she is unable to understand the nature and consequences of that to which she gives consent, Sixthly.-With or without her consent, when she is under eighteen years of age, Seventhly.-When she is unable to communicate consent. ”Explanation 1.-For the purposes of this section, “vagina” shall also include labia majora; Explanation 2.-Consent means an unequivocal voluntary agreement when the woman by words, gestures or any form of verbal or non-verbal communication, communicates willingness to participate in the specific sexual act; Provided that a woman who does not physically resist to the act of penetration shall not by the reason only of that fact, be regarded as consenting to the sexual activity. Exception 1.-A medical procedure or intervention shall not constitute rape. Exception 2.-Sexual intercourse or sexual acts by a man with his own wife, the wife not being under fifteen years of age, is not rape.” Basically definition of rape contains two essential ingredients: 1. Sexual Intercourse by a man with a woman, and 2. The sexual intercourse must be under circumstances falling under any of the seven clauses of section 375. In order to file the complaint under rape against a man, it is necessary to prove that the sexually intercourse was done by the perpetrators is against the will of the victim or without her consent.
+        </item>
+        <item>Section 376 of IPC deals with punishment for rape.— (1) Whoever, except in the cases provided for by sub-section (2), commits rape shall be punished with imprisonment of either description for a term which shall not be less than seven years but which may be for life or for a term which may extend to ten years and shall also be liable to fine unless the women raped is his own wife and is not under twelve years of age, in which cases, he shall be punished with imprisonment of either description for a term which may extend to two years or with fine or with both: Provided that the court may, for adequate and special reasons to be mentioned in the judgment, impose a sentence of imprisonment for a term of less than seven years. (2) Whoever,— (a)being a police officer commits rape— (i) within the limits of the police station to which he is ap­pointed; or (ii) in the premises of any station house whether or not situated in the police station to which he is appointed; or (iii) on a woman in his custody or in the custody of a police officer subordinate to him; or (b) being a public servant, takes advantage of his official position and commits rape on a woman in his custody as such public servant or in the custody of a public servant subordinate to him; or (c) being on the management or on the staff of a jail, remand home or other place of custody established by or under any law for the time being in force or of a woman’s or children’s insti­tution takes advantage of his official position and commits rape on any inmate of such jail, remand home, place or institution; or (d) being on the management or on the staff of a hospital, takes advantage of his official position and commits rape on a woman in that hospital; or (e) commits rape on a woman knowing her to be pregnant; or (f) commits rape on a woman when she is under twelve years of age; or (g) commits gang rape, shall be punished with rigorous imprisonment for a term which shall not be less than ten years but which may be for life and shall also be liable to fine: Provided that the Court may, for adequate and special reasons to be mentioned in the judgment, impose a sentence of imprisonment of either description for a term of less than ten years. Explanation 1.—Where a woman is raped by one or more in a group of persons acting in furtherance of their common intention, each of the persons shall be deemed to have committed gang rape within the meaning of this sub-section. Explanation 2.—“Women’s or children’s institution” means an institution, whether called an orphanage or a home for neglected women or children or a widows’ home or by any other name, which is established and maintained for the reception and care of women or children. Explanation 3.—“Hospital” means the precincts of the hospital and includes the precincts of any institution for the reception and treatment of persons during convalescence or of persons requiring medical attention or rehabilitation.
+        </item>
+        <item>Section 498-A of IPC aims to ensure that women are protected from cruelty. IPC Section 498-A deals with the offense of cruelty by husband or  relatives of the husband. "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine." Explanation.—For the purpose of this section, “cruelty” means - (a) any willful conduct which is of such a nature as is likely to drive the woman to commit suicide or to cause grave injury or danger to life, limb or health (whether mental or physical) of the woman; or (b) harassment of the woman where such harassment is with a view to coercing her or any person related to her to meet any unlawful demand for any property or valuable security or is on account of failure by her or any person related to her to meet such demand.</item>
+
+
+    </string-array>
+
+</resources>

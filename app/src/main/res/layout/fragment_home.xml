@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="50dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_180dp"
+                android:layout_marginRight="@dimen/margin_50dp"
+                android:layout_marginLeft="@dimen/margin_50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo"
+                android:layout_alignParentTop="true"
+                android:id="@+id/home_img"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_police_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/guard"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Police"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_ambulance_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ambulance"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ambulance"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_lawyer_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/judge"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Lawyer"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/height_150dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_fire_station_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fire_station"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fire Service"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_medical_helpline_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/medical_helpline"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Medical Help Line"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_child_helpline_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/child_helpline"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Child Help\nLine"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_women_rights_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/women_rights"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Women Rights"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/margin_20dp"
+                    android:id="@+id/home_sections_click">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_150dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:layout_width="@dimen/height_width_80dp"
+                            android:layout_height="@dimen/height_width_80dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/clipboard"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sections"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textsize_18sp"
+                            android:fontFamily="sans-serif"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

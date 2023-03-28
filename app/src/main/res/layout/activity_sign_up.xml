@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignUpActivity"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_220dp"
+        android:layout_marginRight="@dimen/margin_50dp"
+        android:layout_marginLeft="@dimen/margin_50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/sign_up_img"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_email_layout"
+        android:layout_below="@+id/sign_up_img"
+        android:layout_centerInParent="true"
+        app:startIconDrawable="@drawable/ic_email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Email"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/defaultcolor"
+        app:hintTextColor="@color/defaultcolor"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:id="@+id/sign_up_email"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_password_layout"
+        android:layout_below="@+id/sign_up_email_layout"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_centerInParent="true"
+        app:startIconDrawable="@drawable/ic_lock"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Password"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/defaultcolor"
+        app:hintTextColor="@color/defaultcolor"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:id="@+id/sign_up_password"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_confirm_password_layout"
+        android:layout_below="@+id/sign_up_password_layout"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_centerInParent="true"
+        app:startIconDrawable="@drawable/ic_lock"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Confirm Password"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/defaultcolor"
+        app:hintTextColor="@color/defaultcolor"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:id="@+id/sign_up_confirm_password"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_check_layout"
+        android:layout_below="@+id/sign_up_confirm_password_layout"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_30dp2"
+        android:layout_marginLeft="@dimen/margin_30dp2">
+
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:id="@+id/sign_up_check_checkbox"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_check_text"
+            android:layout_toRightOf="@id/sign_up_check_checkbox"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:gravity="right"
+            android:fontFamily="sans-serif"
+            android:text="I have read and accept the"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_check_privacy"
+            android:layout_toRightOf="@id/sign_up_check_text"
+            android:clickable="true"
+            android:gravity="right"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="5dp"
+            android:textStyle="italic"
+            android:text="Privacy Policy"
+            android:textColor="#0000EE"
+            android:textSize="@dimen/textsize_16sp"/>
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_sign_up"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:cornerRadius="20dp"
+        android:text="Sign Up"
+        android:fontFamily="sans-serif"
+        android:theme="@style/Button.Black"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/sign_up_check_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_alredy_have_account_layout"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/margin_30dp"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_below="@+id/sign_up_sign_up"
+        android:layout_marginTop="@dimen/margin_30dp3"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_have_account_text"
+            android:text="@string/already_a_member"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_20sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_sign_in"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_toRightOf="@id/sign_up_have_account_text"
+            android:text="Sign In"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/textsize_20sp"
+            android:fontFamily="sans-serif"/>
+
+    </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/view_common_loader" />
+
+</RelativeLayout>

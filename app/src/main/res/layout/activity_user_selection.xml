@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserSelection">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_250dp"
+        android:layout_marginRight="@dimen/margin_50dp"
+        android:layout_marginLeft="@dimen/margin_50dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/user_select_img"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:paddingRight="100dp"
+        android:id="@+id/user_select_as_user_layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_select_as_user"
+        android:text="As a User"
+        android:textSize="@dimen/textsize_30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/custom1"
+        android:paddingBottom="@dimen/padding_10dp"
+        android:paddingTop="@dimen/padding_10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_select_as_lawyer_layout"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30dp"
+        android:gravity="right"
+        android:paddingLeft="100dp"
+        android:layout_below="@+id/user_select_as_user_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_select_as_lawyer"
+            android:text="As a Lawyer"
+            android:textSize="@dimen/textsize_30sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/custom1"
+            android:paddingBottom="@dimen/padding_10dp"
+            android:paddingTop="@dimen/padding_10dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

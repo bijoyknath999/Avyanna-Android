@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/home_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <com.luseen.spacenavigation.SpaceNavigationView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            app:active_item_color="@color/colorAccent"
+            app:centre_button_color="@color/colorAccent"
+            app:inactive_centre_button_icon_color="@color/white"
+            app:inactive_item_color="@color/white"
+            app:space_background_color="@color/black"
+            app:centre_button_icon="@drawable/ic_chat"
+            app:space_item_icon_size="@dimen/space_item_icon_default_size"
+            app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
+            app:space_item_text_size="@dimen/space_item_text_default_size" />
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

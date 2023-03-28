@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "44276386213",
+    "firebase_url": "https://avyanna-app-default-rtdb.firebaseio.com",
+    "project_id": "avyanna-app",
+    "storage_bucket": "avyanna-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44276386213:android:51fd99997ed669b157004c",
+        "android_client_info": {
+          "package_name": "com.dev.avyanna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44276386213-e47ivdgl11io8lrtb308l778h4aon1kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.avyanna",
+            "certificate_hash": "ba081a21c424f4c296e017bb649010a7a84268c7"
+          }
+        },
+        {
+          "client_id": "44276386213-t211neqkmb3idg7a88rmc7altg32outl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1i_251HIPfYleyf03K1aW8kjjpvH2CVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44276386213-t211neqkmb3idg7a88rmc7altg32outl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
